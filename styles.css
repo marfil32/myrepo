@@ -1,0 +1,61 @@
+@import url('https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css');
+
+/* Eliminar cualquier borde */
+.no-border {
+    border: none !important; /* Asegúrate de que no haya ningún borde */
+}
+
+/* Ajustar el tamaño del recuadro central */
+.px-6 {
+    padding-top: 40px; /* Ajusta el padding superior */
+    padding-bottom: 40px; /* Ajusta el padding inferior */
+}
+
+/* Aumentar el tamaño del recuadro central */
+.shadow-xl {
+    min-height: 460px;  /* Ajusta la altura mínima del recuadro */
+}
+
+.valid-text {
+    text-align: left; /* Alinea el texto a la izquierda */
+    margin-bottom: 20px; /* Ajusta este valor según el espacio que desees */
+}
+
+.button-container {
+    margin-top: 40px; /* Ajusta este valor según el espacio que desees */
+}
+
+.border-t {
+    border-top-color: #e0e0e0; /* Ajusta este valor a un tono más claro */
+}
+
+/* Estilo del botón */
+.btn-download {
+    background-color: #0a91b1; /* Color azul */
+    color: white; /* Texto blanco */
+    padding: 8px 24px; /* Ajuste en el tamaño del botón */
+    font-size: 16px; /* Ajuste en el tamaño del texto */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.btn-download:hover {
+    background-color: #086f8a; /* Color más oscuro para el hover */
+}
+
+/* Ajustar el margen superior del contenido */
+.content-container {
+    margin-top: 20px; /* Ajusta este valor según el espacio que desees */
+}
+
+/* Estilo del recuadro central */
+.central-container {
+    border: 1px solid #e0e0e0 !important; /* Asegurar borde gris */
+    box-shadow: 0 4px 10px rgba(93, 91, 91, 0.1); /* Añadir sombra gris difuminada */
+
+}
+
