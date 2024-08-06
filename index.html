@@ -50,24 +50,3 @@
 </body>
 
 </html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Validación</title>
-    <script>
-        window.onload = function() {
-            const path = window.location.pathname.split('/');
-            if (path[1] === 'validate-document' && path[2]) {
-                // Aquí puedes manejar el ID de validación dinámicamente
-                document.getElementById('message').innerText = `Validación para el ID: ${path[2]}`;
-            } else {
-                document.getElementById('message').innerText = 'Página no encontrada';
-            }
-        }
-    </script>
-</head>
-<body>
-    <h1 id="message"></h1>
-</body>
-</html>
